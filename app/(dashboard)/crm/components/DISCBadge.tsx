@@ -1,7 +1,7 @@
 import { DISCProfile } from '@/types/crm';
 
 interface Props {
-  profile: DISCProfile;
+  profile: DISCProfile | undefined;
 }
 
 const config = {
