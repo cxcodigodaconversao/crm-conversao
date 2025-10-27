@@ -4,35 +4,3 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
-```
-
----
-
-## ✅ ESTRUTURA FINAL (Deve ficar assim):
-```
-crm-conversao/
-├── app/
-│   ├── globals.css                    ✅
-│   ├── layout.tsx                     ✅ (mova da raiz!)
-│   ├── page.tsx                       ✅ (mova da raiz!)
-│   └── (dashboard)/
-│       └── crm/
-│           ├── page.tsx               ✅
-│           └── components/
-│               ├── Kanban.tsx         ✅
-│               ├── LeadCard.tsx       ✅
-│               └── DISCBadge.tsx      ✅
-├── lib/
-│   ├── mock-data.ts                   ✅
-│   └── store/
-│       └── crm-store.ts               ✅
-├── types/
-│   └── crm.ts                         ✅
-├── package.json                       ✅
-├── tsconfig.json                      ✅
-├── next.config.js                     ✅
-├── tailwind.config.ts                 ✅
-├── postcss.config.js                  ✅
-├── netlify.toml                       ✅ CRIAR
-├── .gitignore                         ✅
-└── README.md                          ✅
